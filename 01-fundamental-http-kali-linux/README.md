@@ -1,6 +1,6 @@
 # Tugas Cyber Security Hari Pertama
 
-![alt text](https://github.com/budimanindra/cyber-security-fazztrack/blob/main/example-result.PNG?raw=true)
+![alt text](https://github.com/budimanindra/cyber-security-fazztrack/blob/main/example-result.png?raw=true)
 
 Run program main.sh dengan menambahkan parameter dari website yang ingin didapatkan responsenya
 

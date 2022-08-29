@@ -44,7 +44,7 @@ Test login menggunakan password yang terdaftar
 
 Beberapa hal yang dapat disimpulkan dari proses SQL injection pada http://157.245.157.217/ adalah:
 
-**1. Database yang digunakan adalah MySQL**
-**2. Nama database yang digunakan adalah miniproyek**
-**3. Terdapat tiga tabel yaitu admin, user, dan list barang**
-**4. Untuk Isi dari tiap tabel dapat diamati pada hasil pencarian diatas**
+**- Database yang digunakan adalah MySQL**
+**- Nama database yang digunakan adalah miniproyek**
+**- Terdapat tiga tabel yaitu admin, user, dan list barang**
+**- Untuk Isi dari tiap tabel dapat diamati pada hasil pencarian diatas**

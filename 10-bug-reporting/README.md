@@ -5,9 +5,9 @@
 ## Report
 
 1. Title
-   Reflected Cross-Site-Scripting (XSS) at http://143.198.175.81/pertemuan9/
+   - Reflected Cross-Site-Scripting (XSS) at http://143.198.175.81/pertemuan9/
 2. Summary
-   http://143.198.175.81/pertemuan9/ installed the rezgo plugin version 4.1.6 which is outdated (latest version is 4.1.16). Rezgo version 4.1.6 does not sanitize/filter some parameters, which can lead vulnerability to the practice of reflected cross-site scripting/XSS. According to OWASP, Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites.
+   - http://143.198.175.81/pertemuan9/ installed the rezgo plugin version 4.1.6 which is outdated (latest version is 4.1.16). Rezgo version 4.1.6 does not sanitize/filter some parameters, which can lead vulnerability to the practice of reflected cross-site scripting/XSS. According to OWASP, Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites.
 3. CVSS Vector and Score
 
    - Attack Vector = Network
@@ -40,9 +40,9 @@
    ![alt text](https://github.com/budimanindra/cyber-security-fazztrack/blob/main/10-bug-reporting/assets/2.PNG?raw=true)
 
 7. Impact
-   Attacker could execute arbitrary Javascript code in victime's browser, which can lead to access any cookies, session tokens, or other sensitive information
+   - Attacker could execute arbitrary Javascript code in victime's browser, which can lead to access any cookies, session tokens, or other sensitive information
 8. Remediation
-   Update the installed plugins to the latest version, in this case rezgo
+   - Update the installed plugins to the latest version, in this case rezgo
 9. References
    - https://owasp.org/www-community/attacks/xss/
    - https://wpscan.com/plugin/rezgo
